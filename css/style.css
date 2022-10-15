@@ -1,24 +1,23 @@
-*{
- padding:0 ;
- position: flex;
- background: fixed purple;
-}
+* {
+ background-color: aqua;
+ padding:0;
+ margin:0;
+ vertical-align:baseline;
+ list-style:none;
+ border:0
+ }
 
 h1{
- margin-top:80px;
- margin: 0px 16px;
- position: relative;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: aqua;
-width: 15%;
-}
-button{
+ margin-left: 40%;
+ font-weight: 100;
  background-color: black;
- color: aqua;
-position: absolute;
-margin-right: 40ex;
-top: 80px;
-padding-top: 5px;
+ width: 26%;
+  color:red;
 }
 
-
+h2{
+ margin-top: -4%;
+ color: red;
+ background-color: black;
+ margin-left: 5%;
+}
