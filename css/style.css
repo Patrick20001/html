@@ -1,5 +1,5 @@
 * {
- background-color: aqua;
+  background-color: aqua;
  padding:0;
  margin:0;
  vertical-align:baseline;
@@ -7,17 +7,33 @@
  border:0
  }
 
-h1{
- margin-left: 40%;
- font-weight: 100;
- background-color: black;
- width: 26%;
-  color:red;
-}
+ h1{
+  color: aliceblue;
+  margin-left: 30%;
+  width:22.2%;
+ }
 
-h2{
- margin-top: -4%;
- color: red;
- background-color: black;
- margin-left: 5%;
-}
+ h2{
+  color: aliceblue;
+  margin-left: 34%;
+  width:13%;
+ }
+
+ div.registro{
+  margin-left: 60%;
+  margin-top: -50px;
+ }
+ #email{
+  background-color: black;
+  
+ }
+ #senha{
+  background-color: red;
+  
+  
+ }
+
+ #butão{
+  background-color: black;
+  color: aliceblue;
+ }
