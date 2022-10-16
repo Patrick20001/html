@@ -20,20 +20,20 @@
  }
 
  div.registro{
-  margin-left: 60%;
-  margin-top: -50px;
+  margin-left: 70%;
+  margin-top: -60px;
  }
  #email{
-  background-color: black;
-  
+  background-color: red;
  }
+
  #senha{
   background-color: red;
-  
-  
  }
 
  #butão{
-  background-color: black;
+  background-color: red;
   color: aliceblue;
  }
+
+ 
