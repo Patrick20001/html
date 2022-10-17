@@ -4,13 +4,16 @@
  margin:0;
  vertical-align:baseline;
  list-style:none;
- border:0
+ border:0;
+ ;
+ 
  }
 
  h1{
   color: aliceblue;
   margin-left: 30%;
-  width:22.2%;
+  width:30%;
+  border: absolute;
  }
 
  h2{
@@ -24,9 +27,12 @@
   margin-top: -60px;
  }
  #email{
-  background-color: red;
+  background-color: black;
+ 
  }
-
+::placeholder{
+  color: white;
+}
  #senha{
   background-color: red;
  }
@@ -35,5 +41,6 @@
   background-color: red;
   color: aliceblue;
  }
+
 
  
