@@ -6,4 +6,7 @@
  border:0; 
  }
 
- 
+ h1{
+  background-color: red;
+  padding-left: 30%;
+ }
