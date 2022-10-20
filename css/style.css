@@ -4,51 +4,7 @@
  margin:0;
  vertical-align:baseline;
  list-style:none;
- border:0;
- ;
- 
+ border:0; 
  }
-
- h1{
-  color: aliceblue;
-  margin-left: 30%;
-  width:30%;
-  border: absolute;
- }
-
- h2{
-  color: aliceblue;
-  margin-left: 34%;
-  width:13%;
- }
-
- div.top_da_pagina{
-  background-color: black;
-  
- }
-
- div.registro{
-  margin-left: 70%;
-  margin-top: -60px;
- }
- 
- /* a tecla # e para buscar id  do input*/
- #email{
-  background-color: black;
- 
- }
- /* tag ::placeholder serve para mudar a config da cor padrão ex: type=email */
- ::placeholder{
-  color: white;
-}
- #senha{
-  background-color: red;
- }
-
- #butão{
-  background-color: red;
-  color: aliceblue;
- }
-
 
  
