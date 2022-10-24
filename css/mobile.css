@@ -1,0 +1,61 @@
+h1{
+ color: red;
+}
+/*2 - sintaxe*/
+@media screen and (max-width:500px ){
+/*max-width=TELA MENORES QUE ALGUMA RESOLUÇÃO*/
+h1{
+ color: blue;
+}
+}
+/*3-outros modos*/
+/*screen,print,speech,all*/
+@media print and (max-width:600px){
+ h1{
+  color: green;
+ }
+}
+
+/*4- todos os modos*/
+@media(max-width:700px){
+ h2{
+  color: purple;
+ }
+}
+
+/*5-mobile first*/
+/*min-width>max-width*/
+@media(min-width:200px){
+ h2{
+  color: teal;
+ }
+}
+/*6- and  na media query*/
+@media(min-width:200px) and (max-width:400px){
+ h2{
+ font-size: 3em;
+ }
+}
+
+/*7- orientation*/
+@media (orientation:landscape){
+ h2{
+  color: magenta;
+ }
+}
+
+/*8-OR  na media query*/
+@media (min-width:200px), (orientation:landscape){
+ h2{
+  font-size: 4em;
+ }
+}
+/*9-cuidado ao aplicar  mq*/
+/*mq são ultimas regras*/
+@media (min-width:600px){
+ h2{
+  color: black;
+ }
+}
+
+/*10-breakpoints*/
