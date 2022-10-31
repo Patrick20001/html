@@ -1,0 +1,42 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;    
+    text-decoration: none;
+    }
+
+    .top_pagina{
+      background-color: black;
+      padding-left: 15cm;
+      position: absolute;
+      width: 10cm;
+    }
+
+    .redes_sociais{
+      background-color: black;
+      margin-top:  35px;
+      position: relative;
+     
+    }
+
+
+    #1{
+      margin-right: 5cm;
+    padding: 5cm;    }
+
+    div#2{
+      margin-left: 5cm;
+    }
+
+    #3{
+     
+      position: flex;
+      margin-right: 5cm;
+    }
+
+
+    h1{
+      color: red;
+    }
